@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3b1e1e;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(45, 49, 49);
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: .1px;
+    
+}
+
+.color-name {
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    font-size: 1px;
+}
+
+.indicator {
+    height: 50px;
+    width: 300px;
+    background-color: rgb(180, 171, 171);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.squares {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.square {
+    height: 80px;
+    width: 120px;
+    background-color: rgb(141, 163, 152);
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    box-shadow: 20px;
+    padding: 10px;
+    
+    
+}
+
+.square:hover {
+    transform: scale(1.1);
+}
+
+.button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 100px;
+    width: 150px;
+    background-color: rgb(34, 36, 33);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: rgb(240, 228, 228);
+    margin: 5px;
+}
+
+button:hover {
+    background-color: rgb(75, 120, 10);
+}

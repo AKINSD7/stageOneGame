@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap" rel="styles.css">
+    <title>Color guessing game</title>
+
+  </head>
+  <body>
+    <div class="container">
+<div class="instructions"><h1 data-testid="gameInstructions">Color Guessing Game</h1></div>
+      
+        
+        <div class="indicator"></div>
+
+        <div class="color-name" data-testid="colorBox"></div>
+        <div>
+            <div class="squares">
+                <div class="square" data-testid="colorOption"><p>A</p></div>
+                <div class="square" data-testid="colorOption"><p>B</p></div>
+                <div class="square" data-testid="colorOption"><p>C</p></div>
+            </div>
+            <br>
+            <br>
+            <div class="squares">
+                <div class="square" data-testid="colorOption"><p>D</p></div>
+                <div class="square" data-testid="colorOption"><p>E</p></div>
+                <div class="square" data-testid="colorOption"><p>F</p></div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="button">
+            <button id="game-status" data-testid="gameStatus">STATUS</button>
+            <button id="score" data-testid="score">SCORE: </button>
+            <button id="new-game" data-testid="newGameButton">NEW GAME</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
